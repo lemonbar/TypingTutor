@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4AADE61977EB8A0007C1F0 /* TutorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AADE51977EB8A0007C1F0 /* TutorController.m */; };
+		0B4AADEA1978B1AD0007C1F0 /* ColorFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AADE91978B1AD0007C1F0 /* ColorFormatter.m */; };
+		0B6D9E7219768CA600C09437 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6D9E7119768CA600C09437 /* Cocoa.framework */; };
+		0B6D9E7C19768CA600C09437 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B6D9E7A19768CA600C09437 /* InfoPlist.strings */; };
+		0B6D9E7E19768CA600C09437 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D9E7D19768CA600C09437 /* main.m */; };
+		0B6D9E8219768CA600C09437 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0B6D9E8019768CA600C09437 /* Credits.rtf */; };
+		0B6D9E8519768CA600C09437 /* TypingTutorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D9E8419768CA600C09437 /* TypingTutorAppDelegate.m */; };
+		0B6D9E8819768CA600C09437 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6D9E8619768CA600C09437 /* MainMenu.xib */; };
+		0B6D9E8B19768CA600C09437 /* TypingTutor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D9E8919768CA600C09437 /* TypingTutor.xcdatamodeld */; };
+		0B6D9E9319768CA600C09437 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6D9E9219768CA600C09437 /* SenTestingKit.framework */; };
+		0B6D9E9419768CA600C09437 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6D9E7119768CA600C09437 /* Cocoa.framework */; };
+		0B6D9E9C19768CA600C09437 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B6D9E9A19768CA600C09437 /* InfoPlist.strings */; };
+		0B6D9E9F19768CA600C09437 /* TypingTutorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D9E9E19768CA600C09437 /* TypingTutorTests.m */; };
+		0B6D9EAA19768D5100C09437 /* BigLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D9EA919768D5100C09437 /* BigLetterView.m */; };
+		0B6D9EAD1976C32B00C09437 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D9EAC1976C32B00C09437 /* NSString+FirstLetter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B6D9E9519768CA600C09437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B6D9E6419768CA600C09437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B6D9E6C19768CA600C09437;
+			remoteInfo = TypingTutor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4AADE41977EB8A0007C1F0 /* TutorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorController.h; sourceTree = "<group>"; };
+		0B4AADE51977EB8A0007C1F0 /* TutorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorController.m; sourceTree = "<group>"; };
+		0B4AADE81978B1AD0007C1F0 /* ColorFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorFormatter.h; sourceTree = "<group>"; };
+		0B4AADE91978B1AD0007C1F0 /* ColorFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorFormatter.m; sourceTree = "<group>"; };
+		0B6D9E6D19768CA600C09437 /* TypingTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6D9E7119768CA600C09437 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0B6D9E7419768CA600C09437 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0B6D9E7519768CA600C09437 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0B6D9E7619768CA600C09437 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B6D9E7919768CA600C09437 /* TypingTutor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypingTutor-Info.plist"; sourceTree = "<group>"; };
+		0B6D9E7B19768CA600C09437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B6D9E7D19768CA600C09437 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B6D9E7F19768CA600C09437 /* TypingTutor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TypingTutor-Prefix.pch"; sourceTree = "<group>"; };
+		0B6D9E8119768CA600C09437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0B6D9E8319768CA600C09437 /* TypingTutorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypingTutorAppDelegate.h; sourceTree = "<group>"; };
+		0B6D9E8419768CA600C09437 /* TypingTutorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypingTutorAppDelegate.m; sourceTree = "<group>"; };
+		0B6D9E8719768CA600C09437 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0B6D9E8A19768CA600C09437 /* TypingTutor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TypingTutor.xcdatamodel; sourceTree = "<group>"; };
+		0B6D9E9119768CA600C09437 /* TypingTutorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypingTutorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6D9E9219768CA600C09437 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B6D9E9919768CA600C09437 /* TypingTutorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypingTutorTests-Info.plist"; sourceTree = "<group>"; };
+		0B6D9E9B19768CA600C09437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B6D9E9D19768CA600C09437 /* TypingTutorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypingTutorTests.h; sourceTree = "<group>"; };
+		0B6D9E9E19768CA600C09437 /* TypingTutorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypingTutorTests.m; sourceTree = "<group>"; };
+		0B6D9EA819768D5100C09437 /* BigLetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigLetterView.h; sourceTree = "<group>"; };
+		0B6D9EA919768D5100C09437 /* BigLetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLetterView.m; sourceTree = "<group>"; };
+		0B6D9EAB1976C32B00C09437 /* NSString+FirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstLetter.h"; sourceTree = "<group>"; };
+		0B6D9EAC1976C32B00C09437 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstLetter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6D9E6A19768CA600C09437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6D9E7219768CA600C09437 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6D9E8D19768CA600C09437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6D9E9319768CA600C09437 /* SenTestingKit.framework in Frameworks */,
+				0B6D9E9419768CA600C09437 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6D9E6219768CA600C09437 = {
+			isa = PBXGroup;
+			children = (
+				0B6D9E7719768CA600C09437 /* TypingTutor */,
+				0B6D9E9719768CA600C09437 /* TypingTutorTests */,
+				0B6D9E7019768CA600C09437 /* Frameworks */,
+				0B6D9E6E19768CA600C09437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B6D9E6E19768CA600C09437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D9E6D19768CA600C09437 /* TypingTutor.app */,
+				0B6D9E9119768CA600C09437 /* TypingTutorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B6D9E7019768CA600C09437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D9E7119768CA600C09437 /* Cocoa.framework */,
+				0B6D9E9219768CA600C09437 /* SenTestingKit.framework */,
+				0B6D9E7319768CA600C09437 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B6D9E7319768CA600C09437 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D9E7419768CA600C09437 /* AppKit.framework */,
+				0B6D9E7519768CA600C09437 /* CoreData.framework */,
+				0B6D9E7619768CA600C09437 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0B6D9E7719768CA600C09437 /* TypingTutor */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D9E8319768CA600C09437 /* TypingTutorAppDelegate.h */,
+				0B6D9E8419768CA600C09437 /* TypingTutorAppDelegate.m */,
+				0B6D9E8619768CA600C09437 /* MainMenu.xib */,
+				0B6D9E8919768CA600C09437 /* TypingTutor.xcdatamodeld */,
+				0B6D9E7819768CA600C09437 /* Supporting Files */,
+				0B6D9EA819768D5100C09437 /* BigLetterView.h */,
+				0B6D9EA919768D5100C09437 /* BigLetterView.m */,
+				0B6D9EAB1976C32B00C09437 /* NSString+FirstLetter.h */,
+				0B6D9EAC1976C32B00C09437 /* NSString+FirstLetter.m */,
+				0B4AADE41977EB8A0007C1F0 /* TutorController.h */,
+				0B4AADE51977EB8A0007C1F0 /* TutorController.m */,
+				0B4AADE81978B1AD0007C1F0 /* ColorFormatter.h */,
+				0B4AADE91978B1AD0007C1F0 /* ColorFormatter.m */,
+			);
+			path = TypingTutor;
+			sourceTree = "<group>";
+		};
+		0B6D9E7819768CA600C09437 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D9E7919768CA600C09437 /* TypingTutor-Info.plist */,
+				0B6D9E7A19768CA600C09437 /* InfoPlist.strings */,
+				0B6D9E7D19768CA600C09437 /* main.m */,
+				0B6D9E7F19768CA600C09437 /* TypingTutor-Prefix.pch */,
+				0B6D9E8019768CA600C09437 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B6D9E9719768CA600C09437 /* TypingTutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D9E9D19768CA600C09437 /* TypingTutorTests.h */,
+				0B6D9E9E19768CA600C09437 /* TypingTutorTests.m */,
+				0B6D9E9819768CA600C09437 /* Supporting Files */,
+			);
+			path = TypingTutorTests;
+			sourceTree = "<group>";
+		};
+		0B6D9E9819768CA600C09437 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D9E9919768CA600C09437 /* TypingTutorTests-Info.plist */,
+				0B6D9E9A19768CA600C09437 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B6D9E6C19768CA600C09437 /* TypingTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6D9EA219768CA600C09437 /* Build configuration list for PBXNativeTarget "TypingTutor" */;
+			buildPhases = (
+				0B6D9E6919768CA600C09437 /* Sources */,
+				0B6D9E6A19768CA600C09437 /* Frameworks */,
+				0B6D9E6B19768CA600C09437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypingTutor;
+			productName = TypingTutor;
+			productReference = 0B6D9E6D19768CA600C09437 /* TypingTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B6D9E9019768CA600C09437 /* TypingTutorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6D9EA519768CA600C09437 /* Build configuration list for PBXNativeTarget "TypingTutorTests" */;
+			buildPhases = (
+				0B6D9E8C19768CA600C09437 /* Sources */,
+				0B6D9E8D19768CA600C09437 /* Frameworks */,
+				0B6D9E8E19768CA600C09437 /* Resources */,
+				0B6D9E8F19768CA600C09437 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6D9E9619768CA600C09437 /* PBXTargetDependency */,
+			);
+			name = TypingTutorTests;
+			productName = TypingTutorTests;
+			productReference = 0B6D9E9119768CA600C09437 /* TypingTutorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B6D9E6419768CA600C09437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TypingTutor;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Meng Li";
+			};
+			buildConfigurationList = 0B6D9E6719768CA600C09437 /* Build configuration list for PBXProject "TypingTutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B6D9E6219768CA600C09437;
+			productRefGroup = 0B6D9E6E19768CA600C09437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B6D9E6C19768CA600C09437 /* TypingTutor */,
+				0B6D9E9019768CA600C09437 /* TypingTutorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6D9E6B19768CA600C09437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6D9E7C19768CA600C09437 /* InfoPlist.strings in Resources */,
+				0B6D9E8219768CA600C09437 /* Credits.rtf in Resources */,
+				0B6D9E8819768CA600C09437 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6D9E8E19768CA600C09437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6D9E9C19768CA600C09437 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B6D9E8F19768CA600C09437 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6D9E6919768CA600C09437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6D9E7E19768CA600C09437 /* main.m in Sources */,
+				0B6D9E8519768CA600C09437 /* TypingTutorAppDelegate.m in Sources */,
+				0B6D9E8B19768CA600C09437 /* TypingTutor.xcdatamodeld in Sources */,
+				0B6D9EAA19768D5100C09437 /* BigLetterView.m in Sources */,
+				0B6D9EAD1976C32B00C09437 /* NSString+FirstLetter.m in Sources */,
+				0B4AADE61977EB8A0007C1F0 /* TutorController.m in Sources */,
+				0B4AADEA1978B1AD0007C1F0 /* ColorFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6D9E8C19768CA600C09437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6D9E9F19768CA600C09437 /* TypingTutorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B6D9E9619768CA600C09437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B6D9E6C19768CA600C09437 /* TypingTutor */;
+			targetProxy = 0B6D9E9519768CA600C09437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B6D9E7A19768CA600C09437 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6D9E7B19768CA600C09437 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B6D9E8019768CA600C09437 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6D9E8119768CA600C09437 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0B6D9E8619768CA600C09437 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6D9E8719768CA600C09437 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0B6D9E9A19768CA600C09437 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6D9E9B19768CA600C09437 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B6D9EA019768CA600C09437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B6D9EA119768CA600C09437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B6D9EA319768CA600C09437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutor/TypingTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B6D9EA419768CA600C09437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutor/TypingTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0B6D9EA619768CA600C09437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TypingTutor.app/Contents/MacOS/TypingTutor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutorTests/TypingTutorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0B6D9EA719768CA600C09437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TypingTutor.app/Contents/MacOS/TypingTutor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutorTests/TypingTutorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6D9E6719768CA600C09437 /* Build configuration list for PBXProject "TypingTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6D9EA019768CA600C09437 /* Debug */,
+				0B6D9EA119768CA600C09437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6D9EA219768CA600C09437 /* Build configuration list for PBXNativeTarget "TypingTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6D9EA319768CA600C09437 /* Debug */,
+				0B6D9EA419768CA600C09437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6D9EA519768CA600C09437 /* Build configuration list for PBXNativeTarget "TypingTutorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6D9EA619768CA600C09437 /* Debug */,
+				0B6D9EA719768CA600C09437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B6D9E8919768CA600C09437 /* TypingTutor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B6D9E8A19768CA600C09437 /* TypingTutor.xcdatamodel */,
+			);
+			currentVersion = 0B6D9E8A19768CA600C09437 /* TypingTutor.xcdatamodel */;
+			path = TypingTutor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0B6D9E6419768CA600C09437 /* Project object */;
+}
